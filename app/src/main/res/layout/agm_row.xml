@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="0dp"
+    android:layout_margin="7dp"
+    android:elevation="90dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Cname"
+            android:text="Company Name"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Cname"
+            android:layout_alignStart="@+id/Cname"
+            android:layout_below="@+id/Cname"
+            android:paddingEnd="5dp"
+            android:layout_toLeftOf="@+id/date"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:text="AGM Date"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/dv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/date"
+            android:layout_alignStart="@+id/date"
+            android:layout_below="@+id/date"
+            android:paddingEnd="5dp"
+            android:layout_toLeftOf="@+id/date"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:text="Divident"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/ye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dv"
+            android:layout_alignStart="@+id/dv"
+            android:layout_below="@+id/dv"
+            android:paddingEnd="5dp"
+            android:layout_toLeftOf="@+id/dv"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:text="Year End"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/rd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rd"
+            android:layout_alignStart="@+id/rd"
+            android:layout_below="@+id/rd"
+            android:paddingEnd="5dp"
+            android:layout_toLeftOf="@+id/rd"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:text="Record Date"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
